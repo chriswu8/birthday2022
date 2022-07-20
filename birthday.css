@@ -598,8 +598,8 @@ h1 {
   font-size: 2rem;
   z-index: 1;
   font-weight: bold;
-  bottom: 5%;
-  left: 5%;
+  top: 25%;
+  left: 15%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: text-anime 10s infinite linear alternate;
@@ -607,16 +607,12 @@ h1 {
 
 .hdb {
   background-size: 50px 50px;
-  background-image: repeating-linear-gradient(45deg, transparent 0, transparent 25%, #c75 0, #225 50%, transparent 0),
-    repeating-linear-gradient(-45deg, transparent 0, transparent 25%, #d15 0, #64b 50%, transparent 0);
+  background-image: repeating-linear-gradient(45deg, transparent 0, transparent 25%, #c75 0, rgb(160, 251, 245) 50%, transparent 0),
+    repeating-linear-gradient(-45deg, transparent 0, transparent 25%, rgb(246, 211, 104) 0, rgb(222, 238, 119) 50%, transparent 0);
 }
 
 @keyframes text-anime {
   100% {
     background-position: 100%;
   }
-}
-
-#space {
-  margin-bottom: 23rem;
 }
